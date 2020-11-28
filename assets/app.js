@@ -21,7 +21,7 @@
       this.name = card.name;
       this.html = `<div class="card" id="${cardID}">
         <div class="card-back">
-          <img src="images/${this.image}" class="card-image" >
+          <img src="assets/imgs/${this.image}" class="card-image" >
         </div>
         <div class="card-front">
           <img src="assets/imgs/cardflag.jpg" class="card-image" >
