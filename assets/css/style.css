@@ -345,8 +345,57 @@ input {
    padding:4px;
 }
 
+.home-button {
+ color: white;
+  letter-spacing: 5px;
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  z-index: 1;
+  overflow-x: hidden;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 4px;
+  top:1%;
+  left:0;}
+ 
+ /*Imitated from freecodecamp.org Memory Game in Vanilla JavaScript*/
+ .home-button a {
+  text-decoration: none;
+  font-family: 'Carter One', cursive;
+  font-size: 18px;
+  color: white;
+}
 
 
+
+.hvr-underline-from-right {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  position: relative;
+  overflow: hidden;
+}
+.hvr-underline-from-right:before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  left: 100%;
+  right: 0;
+  bottom: 0;
+  background: rgba(255, 251, 21, 0.945);
+  height: 4px;
+  -webkit-transition-property: left;
+  transition-property: left;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-timing-function: ease-out;
+  transition-timing-function: ease-out;
+}
+.hvr-underline-from-right:hover:before, .hvr-underline-from-right:focus:before, .hvr-underline-from-right:active:before {
+  left: 0;
+}
 
 /*---------------------------------------------------------------------------------------------------------------------*/
 
@@ -432,7 +481,6 @@ body {
 .card-front {
    border-radius: 5px 20px 5px;
   border: 2px solid #000000;
-  background-image: url('assets/imgs/cardflag.jpg');
   background-color: black;
   background: cover;
 }
@@ -477,7 +525,7 @@ footer {
 }
 
 .counter,
-.timer {
+.timer{
   width: 33%;
   text-align: center;
 }
@@ -488,6 +536,14 @@ footer {
   letter-spacing: 5px;
   font-family: 'Carter One', cursive;
   text-align: center;
+  z-index: 1;
+  background: rgba(22, 21, 21, 0.541);
+  overflow-x: hidden;
+  text-decoration: none;
+  font-size: 18px;
+  padding: 6px;
+  top:1%;
+  left:0;
 }
 
 .time {
@@ -513,7 +569,6 @@ footer {
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0, 0, 0);
   background-color: rgba(0, 0, 0, 0.9);
 }
 
@@ -621,9 +676,9 @@ button:hover {
 }
 
 .choose {
-  font-family: 'Bangers', cursive;
+  font-family: 'Carter One', cursive;
   font-size: 35px;
-  color: white;
+  color: rgb(238, 238, 12);
   margin: 10px 0 40px;
   text-align: center;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 2px 0 #000;
