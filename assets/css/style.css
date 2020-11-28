@@ -347,16 +347,15 @@ input {
 
 .home-button {
  color: white;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
   font-family: 'Carter One', cursive;
   text-align: center;
-  z-index: 1;
-  overflow-x: hidden;
+  overflow: hidden;
   text-decoration: none;
   font-size: 18px;
-  padding: 4px;
-  top:1%;
-  left:0;}
+  top:0;
+  left:0;
+  }
  
  /*Imitated from freecodecamp.org Memory Game in Vanilla JavaScript*/
  .home-button a {
@@ -459,7 +458,7 @@ body {
 .card {
   position: relative;
   float: left;
-  margin: 5px;
+  margin: 3px;
   width: 175px;
   height: 175px;
   text-align: center;
@@ -525,15 +524,17 @@ footer {
 }
 
 .counter,
-.timer{
+.timer,
+.home-button{
   width: 33%;
+  height:29px;
   text-align: center;
 }
 
 .info {
   color: white;
   border: black 12px;
-  letter-spacing: 5px;
+  letter-spacing: 6px;
   font-family: 'Carter One', cursive;
   text-align: center;
   z-index: 1;
@@ -541,8 +542,7 @@ footer {
   overflow-x: hidden;
   text-decoration: none;
   font-size: 18px;
-  padding: 6px;
-  top:1%;
+  margin-top: 0;
   left:0;
 }
 
@@ -555,7 +555,7 @@ footer {
 
 .data {
   letter-spacing: normal;
-  font: 700 32px/1.25 Helvetica, Arial, Sans-Serif;
+  font: 700 22px/1.25 Helvetica, Arial, Sans-Serif;
 }
 
 /* modal */
