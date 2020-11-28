@@ -58,6 +58,46 @@ const cardData = [
    name: "Portuguesetothe",
    image: "portuguesetothe.jpg",
    id: "portuguesetothe"
+ },
+ {
+   name: "Portuguesetoday",
+   image: "portuguesetoday.jpg.jpg",
+   id: "portuguesetoday"
+ },
+ {
+   name: "Englishtoday",
+   image: "englishtoday.jpg.jpg",
+   id: "englishtoday"
+ },
+ {
+   name: "Portugueseimgoingtogo",
+   image: "portugueseimgoingtogo.jpg.jpg",
+   id: "portugueseimgoingtogo"
+ },
+ {
+   name: "Englishimgoingtogo",
+   image: "englishimgoingtogo.jpg.jpg",
+   id: "englishimgoingtogo"
+ },
+  {
+   name: "Portugueseand",
+   image: "portugueseand.jpg",
+   id: "portugueseand"
+ },
+ {
+   name: "Englishand",
+   image: "englishand.jpg",
+   id: "englishand"
+ },
+ {
+   name: "Portuguesebread",
+   image: "portuguesebread.jpg",
+   id: "portugueseimgoingtogo"
+ },
+ {
+   name: "Englishbread",
+   image: "englishbread.jpg",
+   id: "englishbread"
  }
 ];
 
@@ -67,5 +107,17 @@ const gameLevels = {
    pairs: 6,
    twoStar: 6,
    oneStar: 10
+ },
+ medium: {
+   class: "medium",
+   pairs: 8,
+   twoStar: 10,
+   oneStar: 14
+ },
+ hard: {
+   class: "hard",
+   pairs: 12,
+   twoStar: 16,
+   oneStar: 24
  }
 };
