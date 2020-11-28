@@ -416,7 +416,7 @@ body {
   margin: 60px 0 40px;
   color: red;
   text-align: center;
-  text-shadow: 6px 6px 0 #000, -2px -2px 0 #000, 2px -2px 0 #000, -3px 1px 0 #000, 3px 2px 0 #000;
+  text-shadow: 3px 3px 0 #000, -2px -1px 0 #000, 2px -1px 0 #000, -2px 1px 0 #000, 2px 1px 0 #000;
   letter-spacing: 8px;
   font-family: 'Carter One', cursive;
 }
@@ -545,17 +545,18 @@ footer {
   margin-top: 0;
   left:0;
 }
-
+/*
 .time {
   color: #3c5aa6;
   letter-spacing: 5px;
   font-family: 'Carter One', cursive;
   text-align: center;
-}
+}*/
 
 .data {
   letter-spacing: normal;
-  font: 700 22px/1.25 Helvetica, Arial, Sans-Serif;
+  font-family: 'Carter One', cursive;
+  font-size: 22px;
 }
 
 /* modal */
@@ -599,6 +600,7 @@ footer {
   margin: auto;
   padding: 20px;
   width: 60%;
+  height:60%;
   box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2),0 6px 20px 0 rgba(0,0,0,0.19);
 -webkit-animation-name: animatetop;
 -webkit-animation-duration: 0.4s;
@@ -632,22 +634,70 @@ animation-duration: 0.4s
   width: 100%;
 }
 
+
+.time-result{
+    font-family: 'Carter One', cursive;
+    font-size: 22px;
+    color:red;
+    box-shadow: 2px, #000;
+    padding:3%;
+    
+}
+
 .congrats {
-  font: 40px/60px 'Pokemon Solid', Helvetica, Arial, Sans-Serif;
-  color: #ffcb05;
-  margin: 10px;
+  font-family: 'Carter One', cursive;
+  font-size: 42px;
+  margin: auto;
+  top:40%;
   text-align: center;
   text-shadow: 3px 3px 0 #000, -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 2px 0 #000;
   letter-spacing: 6px;
-  -webkit-text-stroke: 2px #ff4554;
-  width: 100%;
 }
 
-.win-text {
-  font: italic 18px/24px Helvetica, Arial, Sans-Serif;
-  text-align: center;
-  padding-top: 20%;
+#blinking{
+    animation:blinkingText 2.2s infinite;
 }
+@keyframes blinkingText{
+    0%{     color: green;}
+    60%{    color: blue; }
+    99%{    color: yellow;}
+}
+
+
+.win-text {
+  font-family: 'Carter One', cursive;
+  font-size: 32px;
+  text-align: center;
+  bottom: 15%;
+  margin: 0;
+  align-items: center;
+    position: absolute;
+    justify-content: center;
+    left:30%;
+    padding: 2%;
+}
+
+#restart{
+  font-family: 'Carter One', cursive;
+  text-align: center;
+  bottom: 3%;
+  margin: 0;
+  align-items: center;
+    position: absolute;
+    justify-content: center;
+    left:40%;  
+}
+
+
+.clock-data{
+    color:blue;
+}
+
+
+h2 {
+    bottom:2%;
+}
+
 
 button {
   background: green;
