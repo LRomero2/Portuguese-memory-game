@@ -348,7 +348,7 @@ input {
 
 
 
-
+/*---------------------------------------------------------------------------------------------------------------------*/
 
 
 *,
@@ -359,8 +359,8 @@ input {
 }
 
 body {
-  background-image: url('images/background.png');
-  color: #3c5aa6;
+    background-image: url('../imgs/welcomepagebackground.jpg');
+  color: white;
   font-family: 'Bangers', cursive;
 }
 /* header */
@@ -674,7 +674,7 @@ button:hover {
   }
 
   .tag-line {
-    font-size: 15px;
+    font-size: 10px;
     margin: 15px;
   }
 

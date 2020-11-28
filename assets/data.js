@@ -1,63 +1,63 @@
 const cardData = [
  {
-   name: "BearMask",
-   image: "bear_mask.png",
-   id: "bearmask"
+   name: "Englishbuy",
+   image: "englishbuy.jpg",
+   id: "englishbuy"
  },
  {
-   name: "BeeMask",
-   image: "bee_mask.png",
-   id: "beemask"
+   name: "Englishcoffee",
+   image: "englishcoffee.jpg",
+   id: "englishcoffee"
  },
  {
-   name: "BlueMask",
-   image: "blue_mask.png",
-   id: "bluemask"
+   name: "Englishiwent",
+   image: "englishiwent.jpg",
+   id: "englishiwent"
  },
  {
-   name: "BoyMask",
-   image: "boy_mask.png",
-   id: "boymask"
+   name: "Englishshop",
+   image: "englishshop.jpg",
+   id: "englishshop"
  },
  {
-   name: "CaptainMask",
-   image: "captain_mask.png",
-   id: "captainmask"
+   name: "Englishto",
+   image: "englishto.jpg",
+   id: "englishto"
  },
  {
-   name: "CrownHair",
-   image: "crown_hair.png",
-   id: "crownhair"
+   name: "Englishtothe",
+   image: "englishtothe.jpg",
+   id: "englishtothe"
  },
  {
-   name: "GirlMask",
-   image: "girl_mask.png",
-   id: "girlmask"
+   name: "Portuguesebuy",
+   image: "portuguesebuy.jpg",
+   id: "portuguesebuy"
  },
  {
-   name: "GreenMask",
-   image: "green_mask.png",
-   id: "greenmask"
+   name: "Portuguesecoffee",
+   image: "portuguesecoffee.jpg",
+   id: "portuguesecoffee"
  },
  {
-   name: "IronMan",
-   image: "iron_man.png",
-   id: "ironman"
+   name: "Portugueseiwent",
+   image: "portugueseiwent.jpg",
+   id: "portugueseiwent"
  },
  {
-   name: "SpiderMan",
-   image: "spider_man.png",
-   id: "spiderman"
+   name: "Portugueseshop",
+   image: "portugueseshop.jpg",
+   id: "portugueseshop"
  },
  {
-   name: "MohawkMask",
-   image: "mohawk_mask.png",
-   id: "mohawkmask"
+   name: "Portugueseto",
+   image: "portugueseto.jpg",
+   id: "portugueseto"
  },
  {
-   name: "EyeMask",
-   image: "eye_mask.png",
-   id: "eyemask"
+   name: "Portuguesetothe",
+   image: "portuguesetothe.jpg",
+   id: "portuguesetothe"
  }
 ];
 
@@ -67,17 +67,5 @@ const gameLevels = {
    pairs: 6,
    twoStar: 6,
    oneStar: 10
- },
- medium: {
-   class: "medium",
-   pairs: 8,
-   twoStar: 10,
-   oneStar: 14
- },
- hard: {
-   class: "hard",
-   pairs: 12,
-   twoStar: 16,
-   oneStar: 24
  }
 };

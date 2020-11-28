@@ -24,7 +24,7 @@
           <img src="images/${this.image}" class="card-image" >
         </div>
         <div class="card-front">
-          <img src="images/batman.png" class="card-image" >
+          <img src="assets/imgs/cardflag.jpg" class="card-image" >
         </div>
       </div>`;
     }
@@ -203,7 +203,7 @@
 
   // Add stars to game screen and modal
   const displayStars = num => {
-    const starImage = '<img src="images/rating-star.png">';
+    const starImage = '<img src="assets/images/rating-star.png">';
     $(".stars").empty();
     for (let i = 0; i < num; i++) {
       $(".stars").append(starImage);
